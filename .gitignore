@@ -42,3 +42,6 @@ embeddings_custom/
 runs/
 naive_model/reference/figures/
 naive_model/reference/verification.json
+
+# Local Zenodo credential; never commit.
+.zenodo_token

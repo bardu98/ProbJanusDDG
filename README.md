@@ -59,9 +59,13 @@ The local prepared folder includes the original embedding cache (about 2.8 GB)
 and all five checkpoints. They are deliberately excluded from normal Git commits.
 The tracked `ASSETS.json` records their names, sizes and SHA-256 checksums.
 
-For publication, create the separate upload bundle and attach its files to the
-repository release or a data archive. Add the resulting public download link here
-when those assets are published; no public asset URL has been created by this packaging step.
+The original frozen embedding cache and five fold checkpoints are available on
+[Zenodo](https://doi.org/10.5281/zenodo.23187754) under **CC BY 4.0**.
+Download all seven files from the record, including all three embedding parts,
+`checkpoints.zip` and `bundle.json`. `README.txt` documents the assets and
+`SHA256SUMS` provides additional integrity checks.
+
+To create an equivalent bundle from a local copy of the original assets:
 
 ```bash
 python scripts/manage_assets.py pack --output dist/assets
