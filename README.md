@@ -55,9 +55,6 @@ coverage.
 
 ## Large assets
 
-The local prepared folder includes the original embedding cache (about 2.8 GB)
-and all five checkpoints. They are deliberately excluded from normal Git commits.
-The tracked `ASSETS.json` records their names, sizes and SHA-256 checksums.
 
 The original frozen embedding cache and five fold checkpoints are available on
 [Zenodo](https://doi.org/10.5281/zenodo.23187754) under **CC BY 4.0**.
