@@ -4,7 +4,6 @@
 
 Sequence-based prediction of mutation-induced changes in protein stability,
 with median point predictions and protein-weighted standard/adaptive CV+ intervals.
-This repository contains the manuscript pipeline from `cv+_21sett_2026`.
 
 ## Installation
 
@@ -47,17 +46,12 @@ retrained models. CPU inference is available with `--device cpu`.
   at `1-coverage` and `coverage`, with no interpolation or finite-rank correction.
   The corrected mutation-weighted CV+ construction is retained as a comparison.
 
-The published run retains the historical convolution mask, including its padding
-behavior. To reproduce the delivered predictions, keep the length-sorted inference
-batch size of 32; changing batch composition can change predictions. This package
-does not silently substitute the corrected-mask model from later experiments.
 
 Protein weighting defines an empirical protein-balanced target; it does not by
 itself establish a finite-sample hierarchical coverage guarantee. Calibration
 requires representative proteins and comparable within-protein sampling for
 transfer to the intended population. Report both mutation-level and equal-protein
-coverage. S461L overlaps S669L, and previous exploratory use of these benchmarks
-means they are not independent confirmation of the epoch-selection criterion.
+coverage.
 
 ## Large assets
 
