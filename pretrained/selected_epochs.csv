@@ -1,0 +1,6 @@
+outer_fold,early_stopping_fold,selected_epoch,selected_mse_protein,minimum_at_cap
+0,1,57,2.360174956965219,False
+1,2,232,2.0100207103562986,False
+2,3,126,2.605507976516796,False
+3,4,283,1.3544643367209257,False
+4,0,105,2.212161055994933,False

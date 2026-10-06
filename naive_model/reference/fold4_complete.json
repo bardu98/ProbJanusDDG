@@ -1,0 +1,16 @@
+{
+  "selection": {
+    "outer_fold": 4,
+    "early_stopping_fold": 0,
+    "selected_epoch": 34,
+    "selected_mse_protein": 2.439038266336482,
+    "minimum_at_cap": false
+  },
+  "artifacts": {
+    "checkpoints/refit_f4.pt": "aeb0a1960b943bfe701f2e30d36868de472b1f93ad31ef738f506732f3354682",
+    "selection/outer4_curve.csv": "805dca206f0af65f48bfa66460957013d4d43c1d66b3b5a2d79900881dc4391b",
+    "predictions/oof_f4.npz": "9ffdbf442e75a597cd196075d3b4901499cbe7f8ef8b17c907f20c0b01392619",
+    "predictions/S669L_f4.npz": "71637d5930d0d11d31461e2841cb69c0425d2e34ea152586ebe3d1636c18d7d4",
+    "predictions/S461L_f4.npz": "db29f1b30bbea3614b6cf61114f379a71b1ae0fae98fdf8132fecf46e7b7b4b6"
+  }
+}

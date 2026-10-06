@@ -1,0 +1,6 @@
+fold,selected_epoch,raw_inner_predictions_checked,maximum_mse_difference
+0,57,True,4.440892098500626e-16
+1,232,True,4.440892098500626e-16
+2,126,True,4.440892098500626e-16
+3,283,True,2.220446049250313e-16
+4,105,True,4.440892098500626e-16

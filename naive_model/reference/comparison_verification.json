@@ -1,0 +1,9 @@
+{
+  "same_cvplus_function": true,
+  "existing_endpoints_reproduced": true,
+  "protein_weights_equal": true,
+  "intervals_nested": true,
+  "point_metric_rows": 8,
+  "interval_metric_rows": 368,
+  "sign_rows": 184
+}

@@ -1,0 +1,26 @@
+{
+  "repository": "https://github.com/compbiomed-unito/JanusDDG",
+  "commit": "7ef53fde72c9b9b715b0a9f2f80910ebf927bd59",
+  "files": {
+    "fig3_a.xlsx": {
+      "url": "https://raw.githubusercontent.com/compbiomed-unito/JanusDDG/7ef53fde72c9b9b715b0a9f2f80910ebf927bd59/Paper_Figures/fig3_a.xlsx",
+      "sha256": "873bc635fa29ae74756b55987235bb37a06060fbc7f7763a64f787eba23a43e6",
+      "bytes": 5747
+    },
+    "fig3_b.xlsx": {
+      "url": "https://raw.githubusercontent.com/compbiomed-unito/JanusDDG/7ef53fde72c9b9b715b0a9f2f80910ebf927bd59/Paper_Figures/fig3_b.xlsx",
+      "sha256": "264560686efdf0afbae1ebf1f1c0166e42e325ff83306bab5b7f710600326461",
+      "bytes": 5713
+    },
+    "fig3_c.xlsx": {
+      "url": "https://raw.githubusercontent.com/compbiomed-unito/JanusDDG/7ef53fde72c9b9b715b0a9f2f80910ebf927bd59/Paper_Figures/fig3_c.xlsx",
+      "sha256": "5f58ce785a51ce661cee17b285dba44b9bee06fe246d345b996c0bea538cb8ff",
+      "bytes": 5891
+    },
+    "fig3_d.xlsx": {
+      "url": "https://raw.githubusercontent.com/compbiomed-unito/JanusDDG/7ef53fde72c9b9b715b0a9f2f80910ebf927bd59/Paper_Figures/fig3_d.xlsx",
+      "sha256": "aed48747d610e5dc4433a369708db3edd9791ff5af32cdf4f335fab0ac7bd560",
+      "bytes": 5883
+    }
+  }
+}

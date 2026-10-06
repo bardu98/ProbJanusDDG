@@ -1,0 +1,7 @@
+{
+  "outer_fold": 3,
+  "early_stopping_fold": 4,
+  "selected_epoch": 152,
+  "selected_mse_protein": 1.8666920292800557,
+  "minimum_at_cap": false
+}

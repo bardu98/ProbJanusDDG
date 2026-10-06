@@ -1,0 +1,6 @@
+outer_fold,early_stopping_fold,inner_train_folds,refit_folds,inner_mutations,validation_mutations,refit_mutations,outer_mutations
+0,1,"2,3,4","1,2,3,4",1261,772,2033,417
+1,2,"0,3,4","0,2,3,4",1105,573,1678,772
+2,3,"0,1,4","0,1,3,4",1366,511,1877,573
+3,4,"0,1,2","0,1,2,4",1762,177,1939,511
+4,0,"1,2,3","0,1,2,3",1856,417,2273,177

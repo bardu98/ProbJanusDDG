@@ -1,0 +1,41 @@
+{
+  "source": "cv+_21sett_2026",
+  "point_aggregation": "median",
+  "calibration": "protein-weighted empirical CV+",
+  "correct_conv_mask": false,
+  "folds": [
+    {
+      "outer_fold": 0,
+      "selected_epoch": 57,
+      "checkpoint": "checkpoints/refit_s0_outer0_e57.pt",
+      "sha256": "4f4da4d160cb8ffbe6692a07a43b7c43235d170b83660a2c754d6ef1c53f92d9"
+    },
+    {
+      "outer_fold": 1,
+      "selected_epoch": 232,
+      "checkpoint": "checkpoints/refit_s0_outer1_e232.pt",
+      "sha256": "1f5cc43064268590e8dd9e758df031fc85d01c9f0cdd2b62bc8fb6dc47792026"
+    },
+    {
+      "outer_fold": 2,
+      "selected_epoch": 126,
+      "checkpoint": "checkpoints/refit_s0_outer2_e126.pt",
+      "sha256": "3ebeeb5b209274dd8a724931154be9de0c40b704e916da75778237b95309b9ab"
+    },
+    {
+      "outer_fold": 3,
+      "selected_epoch": 283,
+      "checkpoint": "checkpoints/refit_s0_outer3_e283.pt",
+      "sha256": "09afa9b87d8fb344bc64f55099b858a3be6c2ebac263a73ecd1eb0c775893370"
+    },
+    {
+      "outer_fold": 4,
+      "selected_epoch": 105,
+      "checkpoint": "checkpoints/refit_s0_outer4_e105.pt",
+      "sha256": "3f31972c91702067219d4d98b83e96a0dd2e7e424a8aa8cfc7d3fe9d1d3c381a"
+    }
+  ],
+  "oof_sha256": "2f0c524e95b6767864a845aabd2e87d2856c22e8dba4cf76d3d8ec3a6f2a9757",
+  "training_data_sha256": "22c9c7dbd896df9a5f165da52ff7c1f893aa6b6dabd0e793a5d8ad183c5aff60",
+  "model_source_sha256": "102527984af45f9f3b3e79a9a73f5ac0231ccc8d370bf4ba8531f56616c1488a"
+}

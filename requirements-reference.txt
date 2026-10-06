@@ -1,0 +1,7 @@
+# Versions used by the archived CV+ run; install CUDA-enabled PyTorch as appropriate.
+numpy==2.4.3
+pandas==2.3.3
+pyarrow==24.0.0
+scipy==1.17.1
+torch==2.7.1
+matplotlib==3.10.8

@@ -1,0 +1,307 @@
+item,reported,recomputed,expected_printed,status,source
+S669L point pearson,0.53,0.5295751189826243,0.53,PASS,paper_cvplus.tex
+S669L point spearman,0.55,0.5492181188358467,0.55,PASS,paper_cvplus.tex
+S669L point mae,0.99,0.9925409448278681,0.99,PASS,paper_cvplus.tex
+S669L point mse,2.03,2.0322471814108125,2.03,PASS,paper_cvplus.tex
+S461L point pearson,0.70,0.703727995305727,0.70,PASS,paper_cvplus.tex
+S461L point spearman,0.68,0.6748859335904531,0.67,MISMATCH,paper_cvplus.tex
+S461L point mae,0.74,0.7362724905944956,0.74,PASS,paper_cvplus.tex
+S461L point mse,0.97,0.9722647545709154,0.97,PASS,paper_cvplus.tex
+S669L standard mutation_coverage_percent,91.63,91.62929745889387,91.63,PASS,paper_cvplus.tex
+S669L standard protein_coverage_percent,86.76,86.7611018877443,86.76,PASS,paper_cvplus.tex
+S669L standard mean_width,4.964,4.963870577733791,4.964,PASS,paper_cvplus.tex
+S669L standard interval_score,6.716,6.715599137150831,6.716,PASS,paper_cvplus.tex
+S669L standard uncertainty_group_sd_pp,4.75,4.745748493773361,4.75,PASS,paper_cvplus.tex
+S669L adaptive mutation_coverage_percent,92.53,92.52615844544096,92.53,PASS,paper_cvplus.tex
+S669L adaptive protein_coverage_percent,86.87,86.87061404776077,86.87,PASS,paper_cvplus.tex
+S669L adaptive mean_width,5.004,5.003734335379074,5.004,PASS,paper_cvplus.tex
+S669L adaptive interval_score,6.551,6.550696980440823,6.551,PASS,paper_cvplus.tex
+S669L adaptive uncertainty_group_sd_pp,3.63,3.632211824419811,3.63,PASS,paper_cvplus.tex
+S461L standard mutation_coverage_percent,97.61,97.61388286334056,97.61,PASS,paper_cvplus.tex
+S461L standard protein_coverage_percent,96.56,96.55668659139613,96.56,PASS,paper_cvplus.tex
+S461L standard mean_width,4.965,4.965179133549688,4.965,PASS,paper_cvplus.tex
+S461L standard interval_score,5.188,5.1876685417655235,5.188,PASS,paper_cvplus.tex
+S461L standard uncertainty_group_sd_pp,2.71,2.7074073380417145,2.71,PASS,paper_cvplus.tex
+S461L adaptive mutation_coverage_percent,98.05,98.0477223427332,98.05,PASS,paper_cvplus.tex
+S461L adaptive protein_coverage_percent,93.85,93.85005209813394,93.85,PASS,paper_cvplus.tex
+S461L adaptive mean_width,4.967,4.966788281386601,4.967,PASS,paper_cvplus.tex
+S461L adaptive interval_score,5.109,5.1091868825764735,5.109,PASS,paper_cvplus.tex
+S461L adaptive uncertainty_group_sd_pp,1.47,1.46557351836615,1.47,PASS,paper_cvplus.tex
+S669L grid discrepancy standard,4.06,4.0564046246301215,4.06,PASS,paper_cvplus.tex
+S669L grid discrepancy adaptive,3.63,3.632378511942893,3.63,PASS,paper_cvplus.tex
+S461L grid discrepancy standard,11.90,11.896276948957459,11.90,PASS,paper_cvplus.tex
+S461L grid discrepancy adaptive,11.63,11.626234007702863,11.63,PASS,paper_cvplus.tex
+S669L standard minimum_width,4.82,4.8234375,4.82,PASS,paper_cvplus.tex
+S669L standard maximum_width,5.19,5.18953125,5.19,PASS,paper_cvplus.tex
+S669L adaptive minimum_width,3.36,3.35586686844863,3.36,PASS,paper_cvplus.tex
+S669L adaptive maximum_width,8.10,8.100561647697912,8.10,PASS,paper_cvplus.tex
+S669L narrower,352,352.0,352,PASS,paper_cvplus.tex
+S669L wider,317,317.0,317,PASS,paper_cvplus.tex
+S669L rescued_90,7,7.0,7,PASS,paper_cvplus.tex
+S669L lost_90,1,1.0,1,PASS,paper_cvplus.tex
+S461L rescued_90,4,4.0,4,PASS,paper_cvplus.tex
+S461L lost_90,2,2.0,2,PASS,paper_cvplus.tex
+S669L lowest-error mean width change,-0.11,-0.10538676152420871,-0.11,PASS,paper_cvplus.tex
+S669L highest-error mean width change,0.28,0.2787136303206257,0.28,PASS,paper_cvplus.tex
+S669L high-minus-low contrast,0.39,0.3841003918448344,0.38,MISMATCH,paper_cvplus.tex
+S461L high-minus-low contrast,0.427,0.4271806384969682,0.427,PASS,paper_cvplus.tex
+S669L uncertainty-error Spearman,0.22,0.2235407576748032,0.22,PASS,paper_cvplus.tex
+S461L uncertainty-error Spearman,0.23,0.22697615495061083,0.23,PASS,paper_cvplus.tex
+S669L 50% stabilizing_mutations,10,10.0,10,PASS,tables/zero_exclusion.tex
+S669L 50% destabilizing_mutations,219,219.0,219,PASS,tables/zero_exclusion.tex
+S669L 50% zero_excluded_mutations,229,229.0,229,PASS,tables/zero_exclusion.tex
+S669L 50% zero_excluded_percent,34.23,34.23019431988042,34.23,PASS,tables/zero_exclusion.tex
+S669L 50% proteins_with_any_zero_excluded,46,46.0,46,PASS,tables/zero_exclusion.tex
+S669L 50% proteins_with_any_zero_excluded_percent,52.87,52.87356321839081,52.87,PASS,tables/zero_exclusion.tex
+S669L 50% sign_accuracy_percent,94.76,94.75982532751091,94.76,PASS,tables/zero_exclusion.tex
+S461L 50% stabilizing_mutations,7,7.0,7,PASS,tables/zero_exclusion.tex
+S461L 50% destabilizing_mutations,183,183.0,183,PASS,tables/zero_exclusion.tex
+S461L 50% zero_excluded_mutations,190,190.0,190,PASS,tables/zero_exclusion.tex
+S461L 50% zero_excluded_percent,41.21,41.21475054229935,41.21,PASS,tables/zero_exclusion.tex
+S461L 50% proteins_with_any_zero_excluded,26,26.0,26,PASS,tables/zero_exclusion.tex
+S461L 50% proteins_with_any_zero_excluded_percent,56.52,56.52173913043478,56.52,PASS,tables/zero_exclusion.tex
+S461L 50% sign_accuracy_percent,98.42,98.42105263157895,98.42,PASS,tables/zero_exclusion.tex
+S669L 55% stabilizing_mutations,6,6.0,6,PASS,tables/zero_exclusion.tex
+S669L 55% destabilizing_mutations,195,195.0,195,PASS,tables/zero_exclusion.tex
+S669L 55% zero_excluded_mutations,201,201.0,201,PASS,tables/zero_exclusion.tex
+S669L 55% zero_excluded_percent,30.04,30.044843049327355,30.04,PASS,tables/zero_exclusion.tex
+S669L 55% proteins_with_any_zero_excluded,41,41.0,41,PASS,tables/zero_exclusion.tex
+S669L 55% proteins_with_any_zero_excluded_percent,47.13,47.12643678160919,47.13,PASS,tables/zero_exclusion.tex
+S669L 55% sign_accuracy_percent,96.52,96.51741293532338,96.52,PASS,tables/zero_exclusion.tex
+S461L 55% stabilizing_mutations,4,4.0,4,PASS,tables/zero_exclusion.tex
+S461L 55% destabilizing_mutations,167,167.0,167,PASS,tables/zero_exclusion.tex
+S461L 55% zero_excluded_mutations,171,171.0,171,PASS,tables/zero_exclusion.tex
+S461L 55% zero_excluded_percent,37.09,37.093275488069416,37.09,PASS,tables/zero_exclusion.tex
+S461L 55% proteins_with_any_zero_excluded,23,23.0,23,PASS,tables/zero_exclusion.tex
+S461L 55% proteins_with_any_zero_excluded_percent,50.00,50.0,50.00,PASS,tables/zero_exclusion.tex
+S461L 55% sign_accuracy_percent,98.83,98.83040935672514,98.83,PASS,tables/zero_exclusion.tex
+S669L 60% stabilizing_mutations,3,3.0,3,PASS,tables/zero_exclusion.tex
+S669L 60% destabilizing_mutations,168,168.0,168,PASS,tables/zero_exclusion.tex
+S669L 60% zero_excluded_mutations,171,171.0,171,PASS,tables/zero_exclusion.tex
+S669L 60% zero_excluded_percent,25.56,25.56053811659193,25.56,PASS,tables/zero_exclusion.tex
+S669L 60% proteins_with_any_zero_excluded,37,37.0,37,PASS,tables/zero_exclusion.tex
+S669L 60% proteins_with_any_zero_excluded_percent,42.53,42.52873563218391,42.53,PASS,tables/zero_exclusion.tex
+S669L 60% sign_accuracy_percent,97.66,97.6608187134503,97.66,PASS,tables/zero_exclusion.tex
+S461L 60% stabilizing_mutations,3,3.0,3,PASS,tables/zero_exclusion.tex
+S461L 60% destabilizing_mutations,148,148.0,148,PASS,tables/zero_exclusion.tex
+S461L 60% zero_excluded_mutations,151,151.0,151,PASS,tables/zero_exclusion.tex
+S461L 60% zero_excluded_percent,32.75,32.75488069414317,32.75,PASS,tables/zero_exclusion.tex
+S461L 60% proteins_with_any_zero_excluded,22,22.0,22,PASS,tables/zero_exclusion.tex
+S461L 60% proteins_with_any_zero_excluded_percent,47.83,47.82608695652174,47.83,PASS,tables/zero_exclusion.tex
+S461L 60% sign_accuracy_percent,99.34,99.33774834437087,99.34,PASS,tables/zero_exclusion.tex
+S669L 65% stabilizing_mutations,2,2.0,2,PASS,tables/zero_exclusion.tex
+S669L 65% destabilizing_mutations,135,135.0,135,PASS,tables/zero_exclusion.tex
+S669L 65% zero_excluded_mutations,137,137.0,137,PASS,tables/zero_exclusion.tex
+S669L 65% zero_excluded_percent,20.48,20.47832585949178,20.48,PASS,tables/zero_exclusion.tex
+S669L 65% proteins_with_any_zero_excluded,29,29.0,29,PASS,tables/zero_exclusion.tex
+S669L 65% proteins_with_any_zero_excluded_percent,33.33,33.333333333333336,33.33,PASS,tables/zero_exclusion.tex
+S669L 65% sign_accuracy_percent,98.54,98.54014598540147,98.54,PASS,tables/zero_exclusion.tex
+S461L 65% stabilizing_mutations,2,2.0,2,PASS,tables/zero_exclusion.tex
+S461L 65% destabilizing_mutations,120,120.0,120,PASS,tables/zero_exclusion.tex
+S461L 65% zero_excluded_mutations,122,122.0,122,PASS,tables/zero_exclusion.tex
+S461L 65% zero_excluded_percent,26.46,26.464208242950107,26.46,PASS,tables/zero_exclusion.tex
+S461L 65% proteins_with_any_zero_excluded,18,18.0,18,PASS,tables/zero_exclusion.tex
+S461L 65% proteins_with_any_zero_excluded_percent,39.13,39.130434782608695,39.13,PASS,tables/zero_exclusion.tex
+S461L 65% sign_accuracy_percent,100.00,100.0,100.00,PASS,tables/zero_exclusion.tex
+S669L 70% stabilizing_mutations,1,1.0,1,PASS,tables/zero_exclusion.tex
+S669L 70% destabilizing_mutations,103,103.0,103,PASS,tables/zero_exclusion.tex
+S669L 70% zero_excluded_mutations,104,104.0,104,PASS,tables/zero_exclusion.tex
+S669L 70% zero_excluded_percent,15.55,15.54559043348281,15.55,PASS,tables/zero_exclusion.tex
+S669L 70% proteins_with_any_zero_excluded,21,21.0,21,PASS,tables/zero_exclusion.tex
+S669L 70% proteins_with_any_zero_excluded_percent,24.14,24.137931034482758,24.14,PASS,tables/zero_exclusion.tex
+S669L 70% sign_accuracy_percent,99.04,99.03846153846153,99.04,PASS,tables/zero_exclusion.tex
+S461L 70% stabilizing_mutations,1,1.0,1,PASS,tables/zero_exclusion.tex
+S461L 70% destabilizing_mutations,95,95.0,95,PASS,tables/zero_exclusion.tex
+S461L 70% zero_excluded_mutations,96,96.0,96,PASS,tables/zero_exclusion.tex
+S461L 70% zero_excluded_percent,20.82,20.824295010845987,20.82,PASS,tables/zero_exclusion.tex
+S461L 70% proteins_with_any_zero_excluded,14,14.0,14,PASS,tables/zero_exclusion.tex
+S461L 70% proteins_with_any_zero_excluded_percent,30.43,30.434782608695652,30.43,PASS,tables/zero_exclusion.tex
+S461L 70% sign_accuracy_percent,100.00,100.0,100.00,PASS,tables/zero_exclusion.tex
+S669L 75% stabilizing_mutations,1,1.0,1,PASS,tables/zero_exclusion.tex
+S669L 75% destabilizing_mutations,73,73.0,73,PASS,tables/zero_exclusion.tex
+S669L 75% zero_excluded_mutations,74,74.0,74,PASS,tables/zero_exclusion.tex
+S669L 75% zero_excluded_percent,11.06,11.061285500747385,11.06,PASS,tables/zero_exclusion.tex
+S669L 75% proteins_with_any_zero_excluded,13,13.0,13,PASS,tables/zero_exclusion.tex
+S669L 75% proteins_with_any_zero_excluded_percent,14.94,14.942528735632184,14.94,PASS,tables/zero_exclusion.tex
+S669L 75% sign_accuracy_percent,100.00,100.0,100.00,PASS,tables/zero_exclusion.tex
+S461L 75% stabilizing_mutations,1,1.0,1,PASS,tables/zero_exclusion.tex
+S461L 75% destabilizing_mutations,70,70.0,70,PASS,tables/zero_exclusion.tex
+S461L 75% zero_excluded_mutations,71,71.0,71,PASS,tables/zero_exclusion.tex
+S461L 75% zero_excluded_percent,15.40,15.401301518438178,15.40,PASS,tables/zero_exclusion.tex
+S461L 75% proteins_with_any_zero_excluded,11,11.0,11,PASS,tables/zero_exclusion.tex
+S461L 75% proteins_with_any_zero_excluded_percent,23.91,23.91304347826087,23.91,PASS,tables/zero_exclusion.tex
+S461L 75% sign_accuracy_percent,100.00,100.0,100.00,PASS,tables/zero_exclusion.tex
+S669L 80% stabilizing_mutations,0,0.0,0,PASS,tables/zero_exclusion.tex
+S669L 80% destabilizing_mutations,48,48.0,48,PASS,tables/zero_exclusion.tex
+S669L 80% zero_excluded_mutations,48,48.0,48,PASS,tables/zero_exclusion.tex
+S669L 80% zero_excluded_percent,7.17,7.174887892376682,7.17,PASS,tables/zero_exclusion.tex
+S669L 80% proteins_with_any_zero_excluded,7,7.0,7,PASS,tables/zero_exclusion.tex
+S669L 80% proteins_with_any_zero_excluded_percent,8.05,8.045977011494253,8.05,PASS,tables/zero_exclusion.tex
+S669L 80% sign_accuracy_percent,100.00,100.0,100.00,PASS,tables/zero_exclusion.tex
+S461L 80% stabilizing_mutations,1,1.0,1,PASS,tables/zero_exclusion.tex
+S461L 80% destabilizing_mutations,46,46.0,46,PASS,tables/zero_exclusion.tex
+S461L 80% zero_excluded_mutations,47,47.0,47,PASS,tables/zero_exclusion.tex
+S461L 80% zero_excluded_percent,10.20,10.195227765726681,10.20,PASS,tables/zero_exclusion.tex
+S461L 80% proteins_with_any_zero_excluded,7,7.0,7,PASS,tables/zero_exclusion.tex
+S461L 80% proteins_with_any_zero_excluded_percent,15.22,15.217391304347826,15.22,PASS,tables/zero_exclusion.tex
+S461L 80% sign_accuracy_percent,100.00,100.0,100.00,PASS,tables/zero_exclusion.tex
+S669L 85% stabilizing_mutations,0,0.0,0,PASS,tables/zero_exclusion.tex
+S669L 85% destabilizing_mutations,22,22.0,22,PASS,tables/zero_exclusion.tex
+S669L 85% zero_excluded_mutations,22,22.0,22,PASS,tables/zero_exclusion.tex
+S669L 85% zero_excluded_percent,3.29,3.288490284005979,3.29,PASS,tables/zero_exclusion.tex
+S669L 85% proteins_with_any_zero_excluded,3,3.0,3,PASS,tables/zero_exclusion.tex
+S669L 85% proteins_with_any_zero_excluded_percent,3.45,3.4482758620689653,3.45,PASS,tables/zero_exclusion.tex
+S669L 85% sign_accuracy_percent,100.00,100.0,100.00,PASS,tables/zero_exclusion.tex
+S461L 85% stabilizing_mutations,0,0.0,0,PASS,tables/zero_exclusion.tex
+S461L 85% destabilizing_mutations,21,21.0,21,PASS,tables/zero_exclusion.tex
+S461L 85% zero_excluded_mutations,21,21.0,21,PASS,tables/zero_exclusion.tex
+S461L 85% zero_excluded_percent,4.56,4.55531453362256,4.56,PASS,tables/zero_exclusion.tex
+S461L 85% proteins_with_any_zero_excluded,2,2.0,2,PASS,tables/zero_exclusion.tex
+S461L 85% proteins_with_any_zero_excluded_percent,4.35,4.3478260869565215,4.35,PASS,tables/zero_exclusion.tex
+S461L 85% sign_accuracy_percent,100.00,100.0,100.00,PASS,tables/zero_exclusion.tex
+S669L 90% stabilizing_mutations,0,0.0,0,PASS,tables/zero_exclusion.tex
+S669L 90% destabilizing_mutations,4,4.0,4,PASS,tables/zero_exclusion.tex
+S669L 90% zero_excluded_mutations,4,4.0,4,PASS,tables/zero_exclusion.tex
+S669L 90% zero_excluded_percent,0.60,0.5979073243647235,0.60,PASS,tables/zero_exclusion.tex
+S669L 90% proteins_with_any_zero_excluded,2,2.0,2,PASS,tables/zero_exclusion.tex
+S669L 90% proteins_with_any_zero_excluded_percent,2.30,2.2988505747126435,2.30,PASS,tables/zero_exclusion.tex
+S669L 90% sign_accuracy_percent,100.00,100.0,100.00,PASS,tables/zero_exclusion.tex
+S461L 90% stabilizing_mutations,0,0.0,0,PASS,tables/zero_exclusion.tex
+S461L 90% destabilizing_mutations,5,5.0,5,PASS,tables/zero_exclusion.tex
+S461L 90% zero_excluded_mutations,5,5.0,5,PASS,tables/zero_exclusion.tex
+S461L 90% zero_excluded_percent,1.08,1.0845986984815619,1.08,PASS,tables/zero_exclusion.tex
+S461L 90% proteins_with_any_zero_excluded,2,2.0,2,PASS,tables/zero_exclusion.tex
+S461L 90% proteins_with_any_zero_excluded_percent,4.35,4.3478260869565215,4.35,PASS,tables/zero_exclusion.tex
+S461L 90% sign_accuracy_percent,100.00,100.0,100.00,PASS,tables/zero_exclusion.tex
+Abstract S669L 50% call rate,34.2,34.23019431988042,34.2,PASS,paper_cvplus.tex
+Abstract S669L 50% sign accuracy,94.8,94.75982532751091,94.8,PASS,paper_cvplus.tex
+Abstract S669L 70% call rate,15.5,15.54559043348281,15.5,PASS,paper_cvplus.tex
+Abstract S669L 70% sign accuracy,99.0,99.03846153846153,99.0,PASS,paper_cvplus.tex
+S669L naive pearson,0.33,0.3285193286485267,0.33,PASS,paper_cvplus.tex
+S669L naive spearman,0.31,0.31349096088444717,0.31,PASS,paper_cvplus.tex
+S669L naive mae,1.23,1.228421411028625,1.23,PASS,paper_cvplus.tex
+S669L naive mse,2.76,2.7569096905271175,2.76,PASS,paper_cvplus.tex
+S461L naive pearson,0.43,0.43016117734575177,0.43,PASS,paper_cvplus.tex
+S461L naive spearman,0.40,0.39853195383831347,0.40,PASS,paper_cvplus.tex
+S461L naive mae,1.00,0.9955883426838867,1.00,PASS,paper_cvplus.tex
+S461L naive mse,1.74,1.7440522100995144,1.74,PASS,paper_cvplus.tex
+S669L naive standard mutation_coverage_percent,90.88,90.88191330343797,90.88,PASS,paper_cvplus.tex
+S669L naive standard protein_coverage_percent,86.31,86.31327675738794,86.31,PASS,paper_cvplus.tex
+S669L naive standard mean_width,5.64,5.641473555086662,5.64,PASS,paper_cvplus.tex
+S669L naive adaptive mutation_coverage_percent,90.28,90.28400597907324,90.28,PASS,paper_cvplus.tex
+S669L naive adaptive protein_coverage_percent,86.41,86.41006272008279,86.41,PASS,paper_cvplus.tex
+S669L naive adaptive mean_width,5.84,5.84222638846627,5.84,PASS,paper_cvplus.tex
+S461L naive standard mutation_coverage_percent,95.88,95.87852494577007,95.88,PASS,paper_cvplus.tex
+S461L naive standard protein_coverage_percent,91.59,91.59109458536297,91.59,PASS,paper_cvplus.tex
+S461L naive standard mean_width,5.64,5.640958877402377,5.64,PASS,paper_cvplus.tex
+S461L naive adaptive mutation_coverage_percent,96.31,96.31236442516268,96.31,PASS,paper_cvplus.tex
+S461L naive adaptive protein_coverage_percent,92.00,92.0001597077791,92.00,PASS,paper_cvplus.tex
+S461L naive adaptive mean_width,5.93,5.927197933131023,5.93,PASS,paper_cvplus.tex
+Naive parameter count,19394,19394.0,19394,PASS,paper_cvplus.tex
+S669 comparison JanusDDG Pearson,0.55,0.55,0.55,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison JanusDDG MAE,0.97,0.97,0.97,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison DDGemb Pearson,0.53,0.53,0.53,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison DDGemb MAE,0.99,0.99,0.99,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison MAESTRO Pearson,0.50,0.5,0.50,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison MAESTRO MAE,1.06,1.06,1.06,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison PROSTATA Pearson,0.49,0.49,0.49,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison PROSTATA MAE,1.00,1.0,1.00,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison ACDC-NN Pearson,0.46,0.46,0.46,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison ACDC-NN MAE,1.05,1.05,1.05,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison DDGun3D Pearson,0.43,0.43,0.43,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison DDGun3D MAE,1.11,1.11,1.11,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison INPS3D Pearson,0.43,0.43,0.43,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison INPS3D MAE,1.07,1.07,1.07,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison INPS-Seq Pearson,0.43,0.43,0.43,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison INPS-Seq MAE,1.09,1.09,1.09,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison ACDC-NN-Seq Pearson,0.42,0.42,0.42,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison ACDC-NN-Seq MAE,1.08,1.08,1.08,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison SDM Pearson,0.41,0.41,0.41,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison SDM MAE,1.26,1.26,1.26,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison DUET Pearson,0.41,0.41,0.41,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison DUET MAE,1.10,1.1,1.10,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison DynaMut Pearson,0.41,0.41,0.41,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison DynaMut MAE,1.19,1.19,1.19,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison PoPMuSiC Pearson,0.41,0.41,0.41,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison PoPMuSiC MAE,1.09,1.09,1.09,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison DDGun Pearson,0.41,0.41,0.41,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison DDGun MAE,1.25,1.25,1.25,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison PremPS Pearson,0.41,0.41,0.41,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison PremPS MAE,1.08,1.08,1.08,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison ThermoNet Pearson,0.39,0.39,0.39,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison ThermoNet MAE,1.17,1.17,1.17,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison THPLM Pearson,0.39,0.39,0.39,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison Rosetta Pearson,0.39,0.39,0.39,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison Rosetta MAE,2.08,2.08,2.08,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison mCSM Pearson,0.36,0.36,0.36,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison mCSM MAE,1.13,1.13,1.13,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison I-Mutant3.0 Pearson,0.36,0.36,0.36,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison I-Mutant3.0 MAE,1.12,1.12,1.12,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison SAAFEC-SEQ Pearson,0.36,0.36,0.36,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison SAAFEC-SEQ MAE,1.13,1.13,1.13,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison I-Mutant3.0-Seq Pearson,0.34,0.34,0.34,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison I-Mutant3.0-Seq MAE,1.15,1.15,1.15,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison DynaMut2 Pearson,0.34,0.34,0.34,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison DynaMut2 MAE,1.15,1.15,1.15,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison MUpro Pearson,0.25,0.25,0.25,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison MUpro MAE,1.21,1.21,1.21,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison FoldX Pearson,0.22,0.22,0.22,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S669 comparison FoldX MAE,1.56,1.56,1.56,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison JanusDDG Pearson,0.69,0.69,0.69,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison JanusDDG MAE,0.71,0.71,0.71,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison PremPS Pearson,0.63,0.63,0.63,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison PremPS MAE,0.80,0.8,0.80,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison MAESTRO Pearson,0.63,0.63,0.63,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison MAESTRO MAE,0.79,0.79,0.79,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison DDGun3D Pearson,0.63,0.63,0.63,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison DDGun3D MAE,0.81,0.81,0.81,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison stability-oracle Pearson,0.62,0.62,0.62,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison stability-oracle MAE,0.89,0.89,0.89,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison PoPMuSiC Pearson,0.61,0.61,0.61,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison PoPMuSiC MAE,0.76,0.76,0.76,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison INPS3D Pearson,0.61,0.61,0.61,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison INPS3D MAE,0.76,0.76,0.76,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison CartddgD Pearson,0.60,0.6,0.60,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison CartddgD MAE,2.93,2.93,2.93,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison ACDC-NN Pearson,0.60,0.6,0.60,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison ACDC-NN MAE,0.78,0.78,0.78,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison DUET Pearson,0.59,0.59,0.59,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison DUET MAE,0.78,0.78,0.78,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison KORPMD Pearson,0.57,0.57,0.57,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison KORPMD MAE,0.91,0.91,0.91,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison SDM Pearson,0.56,0.56,0.56,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison SDM MAE,1.02,1.02,1.02,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison ThermoNet Pearson,0.55,0.55,0.55,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison ThermoNet MAE,0.93,0.93,0.93,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison mCSM Pearson,0.53,0.53,0.53,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison mCSM MAE,0.81,0.81,0.81,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison DynaMut Pearson,0.50,0.5,0.50,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison DynaMut MAE,0.96,0.96,0.96,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison I-Mutant3.0 Pearson,0.49,0.49,0.49,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison I-Mutant3.0 MAE,0.84,0.84,0.84,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison SAAFEC-Seq Pearson,0.49,0.49,0.49,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison SAAFEC-Seq MAE,0.84,0.84,0.84,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison mif Pearson,0.45,0.45,0.45,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison mif MAE,3.14,3.14,3.14,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison ankh Pearson,0.44,0.44,0.44,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison ankh MAE,4.69,4.69,4.69,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison esm2-650M Pearson,0.43,0.43,0.43,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison esm2-650M MAE,3.55,3.55,3.55,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison mpnn-20-00 Pearson,0.40,0.4,0.40,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison mpnn-20-00 MAE,1.88,1.88,1.88,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison esm1v-mean Pearson,0.39,0.39,0.39,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison esm1v-mean MAE,3.33,3.33,3.33,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison esmif-multimer Pearson,0.37,0.37,0.37,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison esmif-multimer MAE,1.26,1.26,1.26,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison mifst Pearson,0.37,0.37,0.37,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison mifst MAE,3.95,3.95,3.95,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison mutcomputex Pearson,0.33,0.33,0.33,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison mutcomputex MAE,1.03,1.03,1.03,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison FoldXD Pearson,0.30,0.3,0.30,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison FoldXD MAE,1.26,1.26,1.26,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison MSA-Transformer Pearson,0.30,0.3,0.30,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison MSA-Transformer MAE,5.05,5.05,5.05,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison Tranception Pearson,0.24,0.24,0.24,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+S461 comparison Tranception MAE,1.29,1.29,1.29,PASS,JanusDDG Fig.3 @ 7ef53fde72c9b9b715b0a9f2f80910ebf927bd59
+Theoretical example empirical bound,0.725,0.7250000000000001,0.725,PASS,paper_cvplus.tex
+Theoretical example corrected bound,0.740,0.74,0.740,PASS,paper_cvplus.tex

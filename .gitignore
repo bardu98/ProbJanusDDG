@@ -1,0 +1,44 @@
+# Large runtime assets: distribute separately with scripts/manage_assets.py.
+embeddings/long_flat.npy
+embeddings/embed.lock
+pretrained/checkpoints/*.pt
+dist/
+*.partial
+
+# Python environments and caches.
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.matplotlib/
+.ipynb_checkpoints/
+
+# Fresh training/evaluation outputs; reference/ retains the archived paper results.
+pipeline/checkpoints/
+pipeline/training/
+pipeline/selection/
+pipeline/predictions/
+pipeline/figures/
+pipeline/sign_exclusion/*.csv
+pipeline/sign_exclusion/*.npz
+pipeline/sign_exclusion/*.md
+pipeline/sign_exclusion/*.txt
+pipeline/sign_exclusion/*.tex
+pipeline/*.csv
+pipeline/*.json
+pipeline/run.lock
+pipeline/training.log
+reference/figures/
+reference/sign_exclusion/
+reference/report.md
+predictions.csv
+verification.json
+
+# Local embedding extraction for new inputs.
+embeddings_custom/
+*.log
+
+# Fresh naive-baseline runs and generated reference figures.
+runs/
+naive_model/reference/figures/
+naive_model/reference/verification.json

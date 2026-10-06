@@ -1,0 +1,315 @@
+{
+  "main_manuscript_sha256": "a7bb2385999bd061015d9934143c0e288dcc3336abc4e696dc63dcac6a2e3831",
+  "main_model": {
+    "S669L": {
+      "pearson": 0.5295751189826243,
+      "spearman": 0.5492181188358467,
+      "mae": 0.9925409448278681,
+      "mse": 2.0322471814108125,
+      "uncertainty_error_rho": 0.2235407576748032,
+      "rows": 669,
+      "proteins": 87,
+      "intervals": {
+        "standard": {
+          "mutation_coverage_percent": 91.62929745889387,
+          "protein_coverage_percent": 86.7611018877443,
+          "mean_width": 4.963870577733791,
+          "minimum_width": 4.8234375,
+          "maximum_width": 5.18953125,
+          "interval_score": 6.715599137150831,
+          "uncertainty_group_sd_pp": 4.745748493773361,
+          "uncertainty_group_coverage_percent": [
+            98.1651376146789,
+            97.10144927536231,
+            89.74358974358975,
+            86.58536585365853,
+            88.23529411764706
+          ],
+          "mean_absolute_grid_discrepancy_pp": 4.0564046246301215
+        },
+        "adaptive": {
+          "mutation_coverage_percent": 92.52615844544096,
+          "protein_coverage_percent": 86.87061404776077,
+          "mean_width": 5.003734335379074,
+          "minimum_width": 3.35586686844863,
+          "maximum_width": 8.100561647697912,
+          "interval_score": 6.550696980440823,
+          "uncertainty_group_sd_pp": 3.632211824419811,
+          "uncertainty_group_coverage_percent": [
+            97.24770642201835,
+            97.10144927536231,
+            90.38461538461539,
+            88.41463414634147,
+            91.17647058823529
+          ],
+          "mean_absolute_grid_discrepancy_pp": 3.632378511942893
+        }
+      },
+      "narrower": 352,
+      "wider": 317,
+      "rescued_90": 7,
+      "lost_90": 1,
+      "error_quintile_width_changes": [
+        -0.10538676152420871,
+        -0.12726145567949954,
+        0.014515213022164323,
+        0.13854899384388164,
+        0.2787136303206257
+      ],
+      "high_minus_low_width_contrast": 0.3841003918448344
+    },
+    "S461L": {
+      "pearson": 0.703727995305727,
+      "spearman": 0.6748859335904531,
+      "mae": 0.7362724905944956,
+      "mse": 0.9722647545709154,
+      "uncertainty_error_rho": 0.22697615495061083,
+      "rows": 461,
+      "proteins": 46,
+      "intervals": {
+        "standard": {
+          "mutation_coverage_percent": 97.61388286334056,
+          "protein_coverage_percent": 96.55668659139613,
+          "mean_width": 4.965179133549688,
+          "minimum_width": 4.825898437499999,
+          "maximum_width": 5.18953125,
+          "interval_score": 5.1876685417655235,
+          "uncertainty_group_sd_pp": 2.7074073380417145,
+          "uncertainty_group_coverage_percent": [
+            100.0,
+            100.0,
+            99.06542056074767,
+            92.85714285714286,
+            96.82539682539682
+          ],
+          "mean_absolute_grid_discrepancy_pp": 11.896276948957459
+        },
+        "adaptive": {
+          "mutation_coverage_percent": 98.0477223427332,
+          "protein_coverage_percent": 93.85005209813394,
+          "mean_width": 4.966788281386601,
+          "minimum_width": 3.487846435960532,
+          "maximum_width": 8.100561647697912,
+          "interval_score": 5.1091868825764735,
+          "uncertainty_group_sd_pp": 1.46557351836615,
+          "uncertainty_group_coverage_percent": [
+            98.79518072289156,
+            100.0,
+            98.13084112149532,
+            95.53571428571429,
+            98.4126984126984
+          ],
+          "mean_absolute_grid_discrepancy_pp": 11.626234007702863
+        }
+      },
+      "narrower": 246,
+      "wider": 215,
+      "rescued_90": 4,
+      "lost_90": 2,
+      "error_quintile_width_changes": [
+        -0.199552366793478,
+        -0.13189816826093761,
+        -0.04931454505425761,
+        0.15872581798250313,
+        0.2276282717034902
+      ],
+      "high_minus_low_width_contrast": 0.4271806384969682
+    }
+  },
+  "naive_model": {
+    "S669L": {
+      "pearson": 0.3285193286485267,
+      "spearman": 0.31349096088444717,
+      "mae": 1.228421411028625,
+      "mse": 2.7569096905271175,
+      "uncertainty_error_rho": 0.19506878946300596,
+      "rows": 669,
+      "proteins": 87,
+      "intervals": {
+        "standard": {
+          "mutation_coverage_percent": 90.88191330343797,
+          "protein_coverage_percent": 86.31327675738794,
+          "mean_width": 5.641473555086662,
+          "minimum_width": 5.461227966547012,
+          "maximum_width": 6.040084393024444,
+          "interval_score": 7.5478852384572,
+          "uncertainty_group_sd_pp": 2.5276233476476606,
+          "uncertainty_group_coverage_percent": [
+            93.24324324324324,
+            92.3076923076923,
+            90.06622516556291,
+            90.38461538461539,
+            85.91549295774648
+          ],
+          "mean_absolute_grid_discrepancy_pp": 0.8823098746224941
+        },
+        "adaptive": {
+          "mutation_coverage_percent": 90.28400597907324,
+          "protein_coverage_percent": 86.41006272008279,
+          "mean_width": 5.84222638846627,
+          "minimum_width": 2.4955944594027333,
+          "maximum_width": 12.141184517045001,
+          "interval_score": 7.922327460244129,
+          "uncertainty_group_sd_pp": 4.424672424555892,
+          "uncertainty_group_coverage_percent": [
+            85.13513513513513,
+            86.01398601398601,
+            92.05298013245033,
+            94.87179487179486,
+            95.77464788732394
+          ],
+          "mean_absolute_grid_discrepancy_pp": 1.388517738934138
+        }
+      },
+      "narrower": 306,
+      "wider": 363,
+      "rescued_90": 17,
+      "lost_90": 21,
+      "error_quintile_width_changes": [
+        -0.07227484086036712,
+        -0.1623870528105546,
+        0.11383790846340325,
+        0.39004389302270986,
+        0.7338956402401926
+      ],
+      "high_minus_low_width_contrast": 0.8061704811005597
+    },
+    "S461L": {
+      "pearson": 0.43016117734575177,
+      "spearman": 0.39853195383831347,
+      "mae": 0.9955883426838867,
+      "mse": 1.7440522100995144,
+      "uncertainty_error_rho": 0.2708796669109253,
+      "rows": 461,
+      "proteins": 46,
+      "intervals": {
+        "standard": {
+          "mutation_coverage_percent": 95.87852494577007,
+          "protein_coverage_percent": 91.59109458536297,
+          "mean_width": 5.640958877402377,
+          "minimum_width": 5.465444244146347,
+          "maximum_width": 5.9858788919448855,
+          "interval_score": 6.217188029823231,
+          "uncertainty_group_sd_pp": 3.2981350068458632,
+          "uncertainty_group_coverage_percent": [
+            97.97979797979798,
+            100.0,
+            94.54545454545455,
+            94.54545454545455,
+            90.38461538461539
+          ],
+          "mean_absolute_grid_discrepancy_pp": 6.761034131657001
+        },
+        "adaptive": {
+          "mutation_coverage_percent": 96.31236442516268,
+          "protein_coverage_percent": 92.0001597077791,
+          "mean_width": 5.927197933131023,
+          "minimum_width": 2.5126900778815946,
+          "maximum_width": 12.141184517045001,
+          "interval_score": 6.418549378047858,
+          "uncertainty_group_sd_pp": 2.2599190153009485,
+          "uncertainty_group_coverage_percent": [
+            92.92929292929293,
+            96.66666666666667,
+            96.36363636363636,
+            97.27272727272728,
+            100.0
+          ],
+          "mean_absolute_grid_discrepancy_pp": 7.872194430917704
+        }
+      },
+      "narrower": 199,
+      "wider": 262,
+      "rescued_90": 10,
+      "lost_90": 8,
+      "error_quintile_width_changes": [
+        -0.18492925285525097,
+        -0.13796601677895348,
+        0.09015126131661161,
+        0.5555978834691028,
+        1.0995015933007215
+      ],
+      "high_minus_low_width_contrast": 1.2844308461559724
+    }
+  },
+  "data": {
+    "S2450_rows": 2450,
+    "S2450_proteins": 115,
+    "fold_mutations": [
+      417,
+      772,
+      573,
+      511,
+      177
+    ],
+    "fold_proteins": [
+      24,
+      22,
+      27,
+      24,
+      18
+    ]
+  },
+  "selected_epochs": [
+    57,
+    232,
+    126,
+    283,
+    105
+  ],
+  "epoch_checks": [
+    {
+      "fold": 0,
+      "selected_epoch": 57,
+      "raw_inner_predictions_checked": true,
+      "maximum_mse_difference": 4.440892098500626e-16
+    },
+    {
+      "fold": 1,
+      "selected_epoch": 232,
+      "raw_inner_predictions_checked": true,
+      "maximum_mse_difference": 4.440892098500626e-16
+    },
+    {
+      "fold": 2,
+      "selected_epoch": 126,
+      "raw_inner_predictions_checked": true,
+      "maximum_mse_difference": 4.440892098500626e-16
+    },
+    {
+      "fold": 3,
+      "selected_epoch": 283,
+      "raw_inner_predictions_checked": true,
+      "maximum_mse_difference": 2.220446049250313e-16
+    },
+    {
+      "fold": 4,
+      "selected_epoch": 105,
+      "raw_inner_predictions_checked": true,
+      "maximum_mse_difference": 4.440892098500626e-16
+    }
+  ],
+  "checks": 306,
+  "mismatches": [
+    {
+      "item": "S461L point spearman",
+      "reported": "0.68",
+      "recomputed": 0.6748859335904531,
+      "expected_printed": "0.67",
+      "status": "MISMATCH",
+      "source": "paper_cvplus.tex"
+    },
+    {
+      "item": "S669L high-minus-low contrast",
+      "reported": "0.39",
+      "recomputed": 0.3841003918448344,
+      "expected_printed": "0.38",
+      "status": "MISMATCH",
+      "source": "paper_cvplus.tex"
+    }
+  ],
+  "baseline_full_training_code_present_in_repository": true,
+  "checkpoint_verification_file": "checkpoint_predictions/verification.json",
+  "external_comparison_commit": "7ef53fde72c9b9b715b0a9f2f80910ebf927bd59",
+  "note": "Numerical audit only; not a review of every mathematical proof or a new retraining experiment."
+}

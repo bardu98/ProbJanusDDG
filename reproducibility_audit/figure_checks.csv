@@ -1,0 +1,9 @@
+paper_figure,generated_figure,same_dimensions,different_pixel_fraction,render_identical
+s669l_uncertainty.pdf,paper_figure1_S669L_protein.pdf,True,0.0,True
+s461l_uncertainty.pdf,paper_figure2_S461L_protein.pdf,True,0.0,True
+s669l_interval_examples.pdf,S669L_adaptive_vs_standard_protein_median.pdf,True,0.0,True
+s461l_interval_examples.pdf,S461L_adaptive_vs_standard_protein_median.pdf,True,0.0,True
+s669l_coverage_switches.pdf,S669L_coverage_switches_protein_median.pdf,True,0.0,True
+s461l_coverage_switches.pdf,S461L_coverage_switches_protein_median.pdf,True,0.0,True
+sign_exclusion_summary.pdf,sign_exclusion_summary.pdf,True,0.0,True
+epoch_selection.pdf,epoch_selection.pdf,True,0.0,True

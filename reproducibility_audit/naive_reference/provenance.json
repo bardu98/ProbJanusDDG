@@ -1,0 +1,49 @@
+{
+  "source": "cv+_21sett_2026/naive_regressor",
+  "files_sha256": {
+    "oof_all.npz": "fbf0de1cbe3268c25ab849d480c25af63eeaf83382c309eeca3f4cd77397ec3b",
+    "S669L_cvplus.npz": "38aaf1189bd32dcdff8d7713167137fe3336c1d40efb169462fbcba47351ac28",
+    "S461L_cvplus.npz": "3fcc5619a9b06b2440fd1dcb215c840749ed8112cc0f4f32ed7ab4984b87a00b",
+    "model.py": "cc91980089ea0939b16d95f4e1a5c6b2a37f59bdd546bd666e6e292570bb69fe",
+    "selected_epochs.csv": "ce0a014badcfbdecbd44a35fa1558023d404edd873c373b575411135a73ea115"
+  },
+  "model_parameters": 19394,
+  "architecture": {
+    "residue": [
+      42,
+      64,
+      64
+    ],
+    "pooling": [
+      "masked_mean",
+      "masked_max",
+      "mutation_site"
+    ],
+    "readout": [
+      192,
+      64,
+      2
+    ]
+  },
+  "training": "directional Gaussian NLL beta=0, reverse augmentation; equal mutation weights",
+  "optimizer": "Adam",
+  "lr": 0.0001,
+  "batch_size": 6,
+  "precision": "float32",
+  "epoch_selection": "raw minimum equal-protein validation MSE; earliest tie; fresh refit",
+  "inner_seeds": [
+    10000,
+    10100,
+    10200,
+    10300,
+    10400
+  ],
+  "refit_seeds": [
+    0,
+    100,
+    200,
+    300,
+    400
+  ],
+  "note": "These are compact numerical-audit inputs, not a complete baseline training distribution."
+}

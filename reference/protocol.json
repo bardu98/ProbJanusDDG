@@ -1,0 +1,66 @@
+{
+  "protocol": "nested_3_train_1_mse_protein_4_refit_1_outer_v3",
+  "seed": 0,
+  "max_epochs": 300,
+  "criterion": "antisymmetric prediction, mean squared error within WT protein, equal mean over proteins",
+  "criterion_calibration": "none",
+  "criterion_evaluation": "all inner-validation mutations",
+  "tie_break": "earliest epoch",
+  "patience": null,
+  "smoothing": null,
+  "early_fold_rule": "(outer_fold + 1) % 5",
+  "inner_seeds": [
+    10000,
+    10100,
+    10200,
+    10300,
+    10400
+  ],
+  "refit_seeds": [
+    0,
+    100,
+    200,
+    300,
+    400
+  ],
+  "refit_from_scratch": true,
+  "epoch_transfer": "same number of epochs; no optimizer-step rescaling",
+  "beta": 0.0,
+  "batch_size": 6,
+  "lr": 0.0001,
+  "correct_conv_mask": false,
+  "point_aggregation": "median of five refit predictions",
+  "source_sha256": {
+    "cv+_21sett_2026/run.py": "7410f96290919ff8dca8fea085de826e43c1e8ff85272fe84b805458f570ed32",
+    "cv+_21sett_2026/protocol.py": "c05429896c7fc793ecbef25fdd74e51b76c382dd64cc83790df8f18c4f5a8036",
+    "cv+_21sett_2026/inner_train.py": "5c9bb42462c9e1b3c1a5e91e075ca6bb21a962a75c0b246f2eb3da09840ba7b1",
+    "cv+_21sett_2026/evaluate.py": "620b53e18821c32b8db974810e0a144e35d086eb289396bb5edcfcd4223a995f",
+    "pjanus/train.py": "9ba90eeb34407e07a7da40f266f6bc2b98e4ca60d15b79fdf24303cb48419ea9",
+    "pjanus/model.py": "102527984af45f9f3b3e79a9a73f5ac0231ccc8d370bf4ba8531f56616c1488a",
+    "pjanus/data.py": "bfe4f6a3c0d313ac30fceed9344e55dad030414f751b4e685e6dd3d9cf77e4d0",
+    "pjanus/losses.py": "271357f16f03356397d3d81df0b12c53d4cc2c9f2ba4b42e532f75b3774526e1",
+    "pjanus/criteria.py": "9e6f1cc6280a7b27124b9bd71f5f7117e054e2b9392c00ca9c04b32aacb109e9",
+    "config.py": "26c9e545330de29bf376dcc217b6459cc8d45dc3c8c239c5d70de76f0e00b3b1",
+    "cv+/cvplus.py": "5dde0a452319754785e9248badbca44e9cdb1e6a03b1cd88dbf645bd37ed5364",
+    "cv+/protein_balanced.py": "3af1e83ecd12dd1057e3dc4eac12152b17e67d73b15ad0ad4822e2e5993c0305"
+  },
+  "data_sha256": {
+    "S2450": "22c9c7dbd896df9a5f165da52ff7c1f893aa6b6dabd0e793a5d8ad183c5aff60",
+    "S669L": "60bd233b0cedf8f7759c0d52e20f624997cbdd2e5325f31cce240bdc4ffbddbb",
+    "S461L": "e3eccbc87edac0865e7dab11d0cc326f737faa44f499220625339150cdbb5daa"
+  },
+  "embedding_sha256": {
+    "long_flat.npy": "4b0cfed5f9a0fd902d5f9a3c16178e559b8153d7578c4099ed69d0c1cda1b5de",
+    "long_index.json": "31647a93bf84cee8130675bc686b0b2209c30123501d51737f87204091d55c7b",
+    "long_lens.npy": "e53e8d2edf625f9f6de93abeb1538facc3b6d83d3ee8bbfac75202a595ac3522",
+    "long_off.npy": "11eee1b24f9082993ca0864677e7693b1ce671c5dd770908480b480622a2b697"
+  },
+  "versions": {
+    "python": "3.12.13 | packaged by Anaconda, Inc. | (main, Mar 19 2026, 20:20:58) [GCC 14.3.0]",
+    "torch": "2.7.1",
+    "numpy": "2.4.3",
+    "pandas": "2.3.3"
+  },
+  "source_experiment": "cv+_21sett_2026",
+  "original_manifest_sha256_record": "Recorded below in asset provenance; original sources are preserved except packaging paths and unused CLI removal."
+}
